@@ -15,7 +15,13 @@ let x = 0;
 //3) All'interno del ciclo aggiungere if e le condizioni per i multipli di 5 e di 3, per i multipli di 3, per i multipli di 5
 
 for (x = 1; x <= 100; x++) {
-
-    console.log(x);
-    
+    if (x % 5 == 0 && x % 3 == 0) {
+        console.log('FizzBuzz');
+    } else if (x % 3 == 0) {
+        console.log('Fizz');
+    } else if (x % 5 == 0) {
+        console.log('Buzz');
+    } else {
+        console.log(x);
+    }
 }
