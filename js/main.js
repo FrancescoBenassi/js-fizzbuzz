@@ -14,3 +14,8 @@ let x = 0;
 //2) Creare un ciclo che parte da 1 e arriva 100
 //3) All'interno del ciclo aggiungere if e le condizioni per i multipli di 5 e di 3, per i multipli di 3, per i multipli di 5
 
+for (x = 1; x <= 100; x++) {
+
+    console.log(x);
+    
+}
